@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1021721487474",
+    "firebase_url": "https://medics-12732.firebaseio.com",
+    "project_id": "medics-12732",
+    "storage_bucket": "medics-12732.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1021721487474:android:cddd0c9c76a92da8",
+        "android_client_info": {
+          "package_name": "com.vernon.medics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1021721487474-hs0nr75u56ptlkjb68cegur3ktghej0i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vernon.medics",
+            "certificate_hash": "fd5574b961d1b6e44bbf48efb45d9a0bfa8bcc08"
+          }
+        },
+        {
+          "client_id": "1021721487474-lj7ls45pr5s6rcgm30dntv6c7c2l76sm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABewprAClFwR3LJLwvs8FUqBZBueAjGzE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1021721487474-lj7ls45pr5s6rcgm30dntv6c7c2l76sm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

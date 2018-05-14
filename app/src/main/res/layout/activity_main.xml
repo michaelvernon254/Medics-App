@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@drawable/login"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:textSize="20sp"
+        android:onClick="doctor"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:background="@drawable/rounded_button"
+        android:id="@+id/doctor"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp"
+        android:text="I'm a Doctor"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:background="@drawable/rounded_button"
+        android:id="@+id/patient"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="17dp"
+        android:text="I'm a Patient" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="83dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="191dp"
+        app:srcCompat="@drawable/loginlogo" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="312dp"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-191dp"
+        android:text="Your Health Is Our Concern!"
+        android:textSize="23sp"
+        android:textStyle="italic" />
+
+</RelativeLayout>
